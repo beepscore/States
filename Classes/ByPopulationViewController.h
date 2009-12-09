@@ -12,5 +12,6 @@
 @interface ByPopulationViewController : UITableViewController {
 
 }
+- (NSArray *)states;
 
 @end

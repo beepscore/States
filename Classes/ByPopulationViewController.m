@@ -7,6 +7,7 @@
 //
 
 #import "ByPopulationViewController.h"
+#import "StatesAppDelegate.h"
 
 
 @implementation ByPopulationViewController
@@ -79,23 +80,27 @@
 
 
 // Customize the number of rows in the table view.
-- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return 0;
+- (NSInteger)tableView:(UITableView *)tableView
+ numberOfRowsInSection:(NSInteger)section {
+    return [self.states count];
 }
 
 
 // Customize the appearance of table view cells.
-- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+- (UITableViewCell *)tableView:(UITableView *)tableView
+         cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     
     static NSString *CellIdentifier = @"Cell";
     
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
-    if (cell == nil) {
-        cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier] autorelease];
+    if (nil == cell) {
+        cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault
+                                       reuseIdentifier:CellIdentifier] autorelease];
     }
     
     // Set up the cell...
-	
+	cell.textLabel.text = [[self.states objectAtIndex:indexPath.row]
+                           objectForKey:@"name"];
     return cell;
 }
 
@@ -147,6 +152,9 @@
 }
 */
 
+- (NSArray *)states {
+    return [(StatesAppDelegate *)[[UIApplication sharedApplication] delegate] statesByPopulation];
+}
 
 - (void)dealloc {
     [super dealloc];
