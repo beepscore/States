@@ -87,6 +87,7 @@
 							<string key="IBUITitle">Asc Pop</string>
 						</object>
 						<reference key="IBUIParentViewController" ref="1034742383"/>
+						<string key="IBUINibName">ByPopAscendViewController</string>
 						<object class="IBUISimulatedStatusBarMetrics" key="IBUISimulatedStatusBarMetrics"/>
 					</object>
 					<object class="IBUIViewController" id="268481961">
@@ -103,6 +104,7 @@
 							<string key="IBUITitle">Asc Area</string>
 						</object>
 						<reference key="IBUIParentViewController" ref="1034742383"/>
+						<string key="IBUINibName">ByAreaAscendViewController</string>
 						<object class="IBUISimulatedStatusBarMetrics" key="IBUISimulatedStatusBarMetrics"/>
 					</object>
 					<object class="IBUIViewController" id="243080927">
@@ -111,6 +113,7 @@
 							<string key="IBUITitle">Desc Name</string>
 						</object>
 						<reference key="IBUIParentViewController" ref="1034742383"/>
+						<string key="IBUINibName">ByNameDescendViewController</string>
 						<object class="IBUISimulatedStatusBarMetrics" key="IBUISimulatedStatusBarMetrics"/>
 					</object>
 					<object class="IBUIViewController" id="349586670">
@@ -119,6 +122,7 @@
 							<string key="IBUITitle">Asc Name</string>
 						</object>
 						<reference key="IBUIParentViewController" ref="1034742383"/>
+						<string key="IBUINibName">ByNameAscendViewController</string>
 						<object class="IBUISimulatedStatusBarMetrics" key="IBUISimulatedStatusBarMetrics"/>
 					</object>
 				</object>
