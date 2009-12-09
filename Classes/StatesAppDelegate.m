@@ -82,11 +82,6 @@
     self.states = [NSArray arrayWithArray:data];
 }
 
-- (NSArray *)statesByPopulation {
-    NSRange range = NSMakeRange(0, 5);
-    return [self.states subarrayWithRange:range];
-}
-
 - (NSArray *)statesByArea {
     NSSortDescriptor *sorter = [[[NSSortDescriptor alloc]
                                  initWithKey:@"area" ascending:NO] autorelease];
@@ -96,5 +91,18 @@
     return [sorted subarrayWithRange:range];
 }
 
+- (NSArray *)statesByPopulation {
+    NSRange range = NSMakeRange(0, 5);
+    return [self.states subarrayWithRange:range];
+}
+
+- (NSArray *)statesByPopulationAscending {
+    NSSortDescriptor *sorter = [[[NSSortDescriptor alloc]
+                                 initWithKey:@"population" ascending:YES] autorelease];
+    NSArray *sorted = [self.states sortedArrayUsingDescriptors:
+                       [NSArray arrayWithObject:sorter]];
+    NSRange range = NSMakeRange(0, 5);
+    return [sorted subarrayWithRange:range];
+}
 @end
 

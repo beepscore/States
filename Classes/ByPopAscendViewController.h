@@ -12,5 +12,6 @@
 @interface ByPopAscendViewController : UITableViewController {
 
 }
+- (NSArray *)states;
 
 @end

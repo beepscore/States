@@ -18,8 +18,9 @@
 @property (nonatomic, retain) IBOutlet UITabBarController *tabBarController;
 @property (nonatomic, retain) NSArray *states;
 
-- (NSArray *)statesByPopulation;
 - (NSArray *)statesByArea;
+- (NSArray *)statesByPopulationAscending;
+- (NSArray *)statesByPopulation;
     
 - (void)createData;
 
