@@ -12,6 +12,10 @@
 
 @implementation ByPopulationViewController
 
+- (void)dealloc {
+    [super dealloc];
+}
+
 /*
 - (id)initWithStyle:(UITableViewStyle)style {
     // Override initWithStyle: if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
@@ -78,13 +82,11 @@
     return 1;
 }
 
-
 // Customize the number of rows in the table view.
 - (NSInteger)tableView:(UITableView *)tableView
  numberOfRowsInSection:(NSInteger)section {
     return [self.states count];
 }
-
 
 // Customize the appearance of table view cells.
 - (UITableViewCell *)tableView:(UITableView *)tableView
@@ -103,7 +105,6 @@
                            objectForKey:@"name"];
     return cell;
 }
-
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     // Navigation logic may go here. Create and push another view controller.
@@ -155,11 +156,6 @@
 - (NSArray *)states {
     return [(StatesAppDelegate *)[[UIApplication sharedApplication] delegate] statesByPopulation];
 }
-
-- (void)dealloc {
-    [super dealloc];
-}
-
 
 @end
 

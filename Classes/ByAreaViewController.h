@@ -12,5 +12,6 @@
 @interface ByAreaViewController : UITableViewController {
 
 }
+- (NSArray *)states;
 
 @end
