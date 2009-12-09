@@ -15,6 +15,8 @@
 		282CCBFE0DB6C98000C4EA27 /* SecondView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 282CCBFD0DB6C98000C4EA27 /* SecondView.xib */; };
 		288765080DF74369002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765070DF74369002DB57D /* CoreGraphics.framework */; };
 		28AD73880D9D96C1002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD73870D9D96C1002E5188 /* MainWindow.xib */; };
+		DE7FB37810CF58E800A80DF7 /* ByPopulationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE7FB37710CF58E800A80DF7 /* ByPopulationViewController.m */; };
+		DE7FB37B10CF596100A80DF7 /* ByAreaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE7FB37A10CF596100A80DF7 /* ByAreaViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,10 @@
 		28AD73870D9D96C1002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* States-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "States-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		DE7FB37610CF58E800A80DF7 /* ByPopulationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ByPopulationViewController.h; sourceTree = "<group>"; };
+		DE7FB37710CF58E800A80DF7 /* ByPopulationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ByPopulationViewController.m; sourceTree = "<group>"; };
+		DE7FB37910CF596100A80DF7 /* ByAreaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ByAreaViewController.h; sourceTree = "<group>"; };
+		DE7FB37A10CF596100A80DF7 /* ByAreaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ByAreaViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,10 @@
 				28216C960DB411BC00E5133A /* FirstViewController.m */,
 				1D3623240D0F684500981E51 /* StatesAppDelegate.h */,
 				1D3623250D0F684500981E51 /* StatesAppDelegate.m */,
+				DE7FB37610CF58E800A80DF7 /* ByPopulationViewController.h */,
+				DE7FB37710CF58E800A80DF7 /* ByPopulationViewController.m */,
+				DE7FB37910CF596100A80DF7 /* ByAreaViewController.h */,
+				DE7FB37A10CF596100A80DF7 /* ByAreaViewController.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -164,6 +174,8 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* StatesAppDelegate.m in Sources */,
 				28216C970DB411BC00E5133A /* FirstViewController.m in Sources */,
+				DE7FB37810CF58E800A80DF7 /* ByPopulationViewController.m in Sources */,
+				DE7FB37B10CF596100A80DF7 /* ByAreaViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
