@@ -15,7 +15,7 @@
 		28AD73880D9D96C1002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD73870D9D96C1002E5188 /* MainWindow.xib */; };
 		DE7FB37810CF58E800A80DF7 /* ByPopulationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE7FB37710CF58E800A80DF7 /* ByPopulationViewController.m */; };
 		DE7FB37B10CF596100A80DF7 /* ByAreaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE7FB37A10CF596100A80DF7 /* ByAreaViewController.m */; };
-		DE81F02F10CF711800C2808E /* ByAreaView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE81F02E10CF711800C2808E /* ByAreaView.xib */; };
+		DE81F02F10CF711800C2808E /* ByAreaDescendViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE81F02E10CF711800C2808E /* ByAreaDescendViewController.xib */; };
 		DE86BE8510D00A5D00838995 /* ByPopAscendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE86BE8310D00A5D00838995 /* ByPopAscendViewController.m */; };
 		DE86BE8610D00A5D00838995 /* ByPopAscendViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE86BE8410D00A5D00838995 /* ByPopAscendViewController.xib */; };
 		DE86BE8C10D00A8400838995 /* ByAreaAscendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE86BE8A10D00A8400838995 /* ByAreaAscendViewController.m */; };
@@ -41,7 +41,7 @@
 		DE7FB37710CF58E800A80DF7 /* ByPopulationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ByPopulationViewController.m; sourceTree = "<group>"; };
 		DE7FB37910CF596100A80DF7 /* ByAreaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ByAreaViewController.h; sourceTree = "<group>"; };
 		DE7FB37A10CF596100A80DF7 /* ByAreaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ByAreaViewController.m; sourceTree = "<group>"; };
-		DE81F02E10CF711800C2808E /* ByAreaView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ByAreaView.xib; sourceTree = "<group>"; };
+		DE81F02E10CF711800C2808E /* ByAreaDescendViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ByAreaDescendViewController.xib; sourceTree = "<group>"; };
 		DE86BE8210D00A5D00838995 /* ByPopAscendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ByPopAscendViewController.h; sourceTree = "<group>"; };
 		DE86BE8310D00A5D00838995 /* ByPopAscendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ByPopAscendViewController.m; sourceTree = "<group>"; };
 		DE86BE8410D00A5D00838995 /* ByPopAscendViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ByPopAscendViewController.xib; path = Classes/ByPopAscendViewController.xib; sourceTree = "<group>"; };
@@ -123,7 +123,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				DE81F02E10CF711800C2808E /* ByAreaView.xib */,
+				DE81F02E10CF711800C2808E /* ByAreaDescendViewController.xib */,
 				DE86BE8B10D00A8400838995 /* ByAreaAscendViewController.xib */,
 				DE86BE9410D00AD400838995 /* ByNameAscendViewController.xib */,
 				DE86BE9B10D00B1F00838995 /* ByNameDescendViewController.xib */,
@@ -187,7 +187,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				28AD73880D9D96C1002E5188 /* MainWindow.xib in Resources */,
-				DE81F02F10CF711800C2808E /* ByAreaView.xib in Resources */,
+				DE81F02F10CF711800C2808E /* ByAreaDescendViewController.xib in Resources */,
 				DE86BE8610D00A5D00838995 /* ByPopAscendViewController.xib in Resources */,
 				DE86BE8D10D00A8400838995 /* ByAreaAscendViewController.xib in Resources */,
 				DE86BE9610D00AD400838995 /* ByNameAscendViewController.xib in Resources */,

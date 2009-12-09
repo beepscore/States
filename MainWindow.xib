@@ -55,11 +55,9 @@
 				<object class="IBUIViewController" key="IBUISelectedViewController" id="1024858337">
 					<string key="IBUITitle">Desc Pop</string>
 					<object class="IBUITableView" key="IBUIView" id="867824159">
-						<reference key="NSNextResponder"/>
+						<nil key="NSNextResponder"/>
 						<int key="NSvFlags">274</int>
 						<string key="NSFrameSize">{320, 411}</string>
-						<reference key="NSSuperview"/>
-						<reference key="NSWindow"/>
 						<object class="NSColor" key="IBUIBackgroundColor">
 							<int key="NSColorSpace">3</int>
 							<bytes key="NSWhite">MQA</bytes>
@@ -97,7 +95,7 @@
 							<string key="IBUITitle">Desc Area</string>
 						</object>
 						<reference key="IBUIParentViewController" ref="1034742383"/>
-						<string key="IBUINibName">ByAreaView</string>
+						<string key="IBUINibName">ByAreaDescendViewController</string>
 					</object>
 					<object class="IBUIViewController" id="610262298">
 						<string key="IBUITitle">Asc Area</string>
