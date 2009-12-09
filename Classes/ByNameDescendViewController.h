@@ -12,5 +12,6 @@
 @interface ByNameDescendViewController : UITableViewController {
 
 }
+- (NSArray *)states;
 
 @end

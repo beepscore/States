@@ -12,5 +12,6 @@
 @interface ByNameAscendViewController : UITableViewController {
 
 }
+- (NSArray *)states;
 
 @end

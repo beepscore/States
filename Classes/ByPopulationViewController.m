@@ -9,7 +9,6 @@
 #import "ByPopulationViewController.h"
 #import "StatesAppDelegate.h"
 
-
 @implementation ByPopulationViewController
 
 - (void)dealloc {

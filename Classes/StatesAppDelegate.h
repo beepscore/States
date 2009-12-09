@@ -19,6 +19,9 @@
 @property (nonatomic, retain) NSArray *states;
 
 - (NSArray *)statesByArea;
+- (NSArray *)statesByAreaAscending;
+- (NSArray *)statesByNameAscending;
+- (NSArray *)statesByNameDescending;
 - (NSArray *)statesByPopulationAscending;
 - (NSArray *)statesByPopulation;
     
