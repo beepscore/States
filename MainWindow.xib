@@ -54,7 +54,7 @@
 				<object class="IBUISimulatedTabBarMetrics" key="IBUISimulatedBottomBarMetrics"/>
 				<object class="IBUISimulatedStatusBarMetrics" key="IBUISimulatedStatusBarMetrics"/>
 				<object class="IBUIViewController" key="IBUISelectedViewController" id="1024858337">
-					<string key="IBUITitle">By Population</string>
+					<string key="IBUITitle">Desc Pop</string>
 					<object class="IBUITableView" key="IBUIView" id="867824159">
 						<reference key="NSNextResponder"/>
 						<int key="NSvFlags">274</int>
@@ -76,7 +76,7 @@
 						<float key="IBUISectionFooterHeight">22</float>
 					</object>
 					<object class="IBUITabBarItem" key="IBUITabBarItem" id="765670903">
-						<string key="IBUITitle">By Population</string>
+						<string key="IBUITitle">Desc Pop</string>
 						<reference key="IBUITabBar"/>
 					</object>
 					<reference key="IBUIParentViewController" ref="1034742383"/>
