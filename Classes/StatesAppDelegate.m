@@ -17,8 +17,8 @@
 
 - (void)dealloc {
     [tabBarController release];
-    self.window = nil;
-    self.states = nil;
+    [window release], window = nil;
+    [states release], states = nil;
     [super dealloc];
 }
 
