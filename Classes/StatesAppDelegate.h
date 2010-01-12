@@ -16,7 +16,7 @@
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
 @property (nonatomic, retain) IBOutlet UITabBarController *tabBarController;
-@property (nonatomic, retain) NSArray *states;
+@property (nonatomic, copy) NSArray *states;
 
 - (NSArray *)statesByArea;
 - (NSArray *)statesByAreaAscending;
